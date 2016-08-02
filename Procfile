@@ -1,1 +1,1 @@
-web: export HTTP_PROXY=46.101.120.250:80 && export HTTPS_PROXY=46.101.120.250:80 && python runserver.py -a "$AUTH_SERVICE" -u "$USERNAME" -p "$PASSWORD" -l "$LOCATION" -st $STEP_COUNT -H 0.0.0.0 -P $PORT -k $GMAPS_KEY $EXTRA_ARGS
+web: export HTTP_PROXY=183.91.33.44:81 && export HTTPS_PROXY=183.91.33.44:81 && python runserver.py -a "$AUTH_SERVICE" -u "$USERNAME" -p "$PASSWORD" -l "$LOCATION" -st $STEP_COUNT -H 0.0.0.0 -P $PORT -k $GMAPS_KEY $EXTRA_ARGS
